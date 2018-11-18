@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+# webpacker-react 
+gem 'webpacker-react'
+# jquery
+gem 'jquery-rails'
 # devise
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
